@@ -1,5 +1,5 @@
 body {
-  background-image: url('bg.png');
+  background-image: url('../files/bg.png');
   background-color: black;
   background-repeat: no-repeat;
   background-size: cover;
@@ -41,4 +41,9 @@ body {
   padding: 8px;
   color: lightblue;
   margin: 0 auto;
+}
+
+.signature {
+  color: gray;
+  text-align: right;
 }
