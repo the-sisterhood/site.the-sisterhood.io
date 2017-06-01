@@ -47,3 +47,7 @@ body {
   color: gray;
   text-align: right;
 }
+
+li {
+  padding: 5px;
+}
