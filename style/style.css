@@ -1,8 +1,8 @@
 body {
   background-image: url('../files/bg.png');
   background-color: black;
-  background-repeat: no-repeat;
-  background-size: cover;
+  background-repeat: repeat-y;
+  background-size: contain;
 
   font-family: Verdana, Helvetica, Arial, sans-serif;
 }
@@ -41,6 +41,7 @@ body {
   padding: 8px;
   color: lightblue;
   margin: 0 auto;
+  width: 70%;
 }
 
 .signature {
@@ -49,5 +50,14 @@ body {
 }
 
 li {
-  padding: 5px;
+  padding: 3px;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+table, td, th {
+    border: 1px solid black;
+    padding: 7px;
 }
