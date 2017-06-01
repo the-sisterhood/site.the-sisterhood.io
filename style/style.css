@@ -1,4 +1,5 @@
 body {
+  padding-top: 70px;
   background-image: url('../files/bg.png');
   background-color: black;
   background-repeat: repeat-y;
@@ -11,6 +12,9 @@ body {
   border-radius: 3px;
   background: gray;
   background: linear-gradient(to bottom, gray, black, black, black, black, gray);
+  position: fixed; 
+  top: 0px; 
+  width: 100%;
   text-align: left;
 }
 
