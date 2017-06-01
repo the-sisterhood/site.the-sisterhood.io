@@ -1,0 +1,44 @@
+body {
+  background-image: url('bg.png');
+  background-color: black;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  font-family: Verdana, Helvetica, Arial, sans-serif;
+}
+
+.textbar {
+  border-radius: 3px;
+  background: gray;
+  background: linear-gradient(to bottom, gray, black, black, black, black, gray);
+  text-align: left;
+}
+
+.textbar a {
+  text-decoration: none;
+  border-radius: 3px;
+  color: white;
+  padding: 15px;
+  display: inline-block;
+  font-style: italic;
+
+  cursor: pointer;
+}
+
+.as-text {
+  text-decoration: none;
+  color: inherit;
+}
+
+.textbar a:hover {
+  background: linear-gradient(to bottom, white, gray, gray, gray, gray, gray, white);
+}
+
+.textbox {
+  background: rgba(67 ,252,252,0.2);
+  font-style: italic;
+  border-radius: 8px;
+  padding: 8px;
+  color: lightblue;
+  margin: 0 auto;
+}
