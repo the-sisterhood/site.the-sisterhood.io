@@ -2,7 +2,7 @@ body {
   background-image: url('../files/bg.png');
   background-color: black;
   background-repeat: repeat-y;
-  background-size: contain;
+  background-size: 100% auto;
 
   font-family: Verdana, Helvetica, Arial, sans-serif;
 }
