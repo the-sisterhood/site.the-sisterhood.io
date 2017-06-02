@@ -1,5 +1,3 @@
-var selectedWitch = "";
-
 function findMember(witchName) {
     let member = Members.find(w => getName(w) === witchName);
     return member;
@@ -24,9 +22,6 @@ function loadMember(witchName) {
         display += blurb;
     }
     
-    selectedWitch = name;
-    loadMemberList();
-    
     document.getElementById('member-name').innerHTML = name;
     document.getElementById('member-description').innerHTML = display;
 }
@@ -34,7 +29,7 @@ function loadMember(witchName) {
 function loadMemberList() {
     let display = "<table>" + Members.map(m => {
         let name = getName(m);
-        return '<tr><td onclick="loadMember(\'' + name + '\')"' + (selectedWitch === name ? ' style="background: rgba(0,252,0,0.2);"' : '') + '>' + name + '</td></tr>';
+        return '<tr><td onclick="loadMember(\'' + name + '\')">' + name + '</td></tr>';
     }).join("") + "</table>";
     
     document.getElementById("member-list").innerHTML = '<div style="overflow-y: scroll; max-height: 400px">' + display + '</div>';
