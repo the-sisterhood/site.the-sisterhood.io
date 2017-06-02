@@ -1,9 +1,14 @@
 body {
   padding-top: 70px;
+  padding-bottom: 30px;
+  padding-right: 10px;
+  padding-left: 10px;
   background-image: url('../files/bg.png');
   background-color: black;
   background-repeat: repeat-y;
   background-size: 100% auto;
+  
+  color: lightblue;
 
   font-family: Verdana, Helvetica, Arial, sans-serif;
 }
@@ -13,7 +18,8 @@ body {
   background: gray;
   background: linear-gradient(to bottom, gray, black, black, black, black, gray);
   position: fixed; 
-  top: 0px; 
+  top: 0px;
+  left: 0px;
   width: 100%;
   text-align: left;
 }
@@ -43,9 +49,15 @@ body {
   font-style: italic;
   border-radius: 8px;
   padding: 8px;
-  color: lightblue;
   margin: 0 auto;
   width: 70%;
+}
+
+.title {
+  font-size: 28pt;
+  font-weight: bold;
+  text-align: center;
+  width: 50%;
 }
 
 .signature {
@@ -57,11 +69,15 @@ li {
   padding: 3px;
 }
 
-table {
+.plain table {
     border-collapse: collapse;
 }
 
-table, td, th {
-    border: 1px solid black;
+.plain table, .plain td, .plain th {
+    border: 1px solid rgba(0,120,200,0.3);
     padding: 7px;
+}
+
+.plain td:hover, .plain th:hover {
+  background: rgba(0,120,200,0.15);
 }
