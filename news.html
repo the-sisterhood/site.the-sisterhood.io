@@ -6,9 +6,11 @@
   <title>The Sisterhood</title>
   <link rel="stylesheet" href="style/style.css">
   <script type="text/javascript" src ="style/navbar.js"></script>
+  <script type="text/javascript" src="data/news.js"></script>
+  <script type="text/javascript" src ="js/data.js"></script>
 </head>
 
-<body onload="loadNavBar(0, 'about')">
+<body onload="loadNavBar(0, 'news'); loadNews()">
 <div id="navbar"></div>
 <center>
   <div class="textbox title">
@@ -16,22 +18,7 @@
   </div>
 <br />
 </center>
-<div class="textbox">
-  We are proud to present a page of quotes for all the memorable moments us sisters have had together!
-  <br />
-  <div class="signature">- sparkychild [June 1, 2017]</div>
-</div>
-<br />
-<div class="textbox">
-  We now have a place for our sisters to store our themes on the website!
-  <br />
-  <div class="signature">- sparkychild [June 1, 2017]</div>
-</div>
-<br />
-<div class="textbox">
-  The sisterhood now has an official website!
-  <br />
-  <div class="signature">- sparkychild [May 31, 2017]</div>
-</div>
+<div onclick="loadNews(true)" id="reverse-button" style="float: right;" class="button">Loading the news...</div>
+<div id="quotes"></div>
 </body>
 </html>

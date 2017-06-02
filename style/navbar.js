@@ -17,3 +17,4 @@ function loadNavBar(backtracks, ignore) {
     
     document.getElementById('navbar').innerHTML = display;
 }
+

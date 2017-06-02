@@ -5,10 +5,12 @@
   <meta charset="UTF-8">
   <title>The Sisterhood</title>
   <link rel="stylesheet" href="style/style.css">
-  <script type="text/javascript" src ="style/navbar.js"></script>
+  <script type="text/javascript" src="style/navbar.js"></script>
+  <script type="text/javascript" src="data/quotes.js"></script>
+  <script type="text/javascript" src="js/data.js"></script>
 </head>
 
-<body onload="loadNavBar(0, 'index')">
+<body onload="loadNavBar(0, 'quotes'); loadQuotes();">
 <div id="navbar"></div>
 <center>
   <div class="textbox title">
@@ -16,16 +18,7 @@
   </div>
 <br />
 </center>
-<div class="textbox">
-    "Players (8): WitchDoctorCackle, WitchDoctorFLushie, WitchDoctorFox, WitchDoctorFoxie, WitchDoctorMoan, WitchDoctorNorton, WitchDoctorShadow, WltchDoctor"
-  <br />
-  <div class="signature">- Mafia Room Bot [May 30, 2017, 18:00:27]</div>
-</div>
-<br />
-<div class="textbox">
-    "I hate every single witch doctor alt and in complete honesty wish I could ban every single one of you"
-  <br />
-  <div class="signature">- TheWhoDoctor [May 30, 2017, 20:18:42]</div>
-</div>
+<div onclick="loadQuotes(true)" id="reverse-button" style="float: right;" class="button">Loading the quotes...</div>
+<div id="quotes"></div>
 </body>
 </html>

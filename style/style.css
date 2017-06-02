@@ -45,7 +45,7 @@ body {
 }
 
 .textbox {
-  background: rgba(67,252,252,0.2);
+  background: rgba(67, 252, 252, 0.2);
   font-style: italic;
   border-radius: 8px;
   padding: 8px;
@@ -74,10 +74,25 @@ li {
 }
 
 .plain table, .plain td, .plain th {
-    border: 1px solid rgba(0,120,200,0.3);
+    border: 1px solid rgba(0, 120, 200, 0.3);
     padding: 7px;
 }
 
 .plain td:hover, .plain th:hover {
   background: rgba(0,120,200,0.15);
+}
+
+.button {
+  background: rgba(64, 224, 208, 0.2);
+  background: linear-gradient(rgba(64, 224, 208, 0.3), rgba(64, 224, 208, 0.2));
+  border: solid 1px lightblue;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2), inset 0 -1px 2px rgba(255, 255, 255, 1);
+  border-radius: 5px;
+  padding: 5px;
+  color: white;
+}
+
+.button:hover {
+    background: rgba(64, 224, 208, 0.5);
+    background: linear-gradient(rgba(64, 224, 208, 0.6), rgba(64, 224, 208, 0.5));
 }

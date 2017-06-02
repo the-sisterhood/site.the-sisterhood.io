@@ -7,7 +7,7 @@ var Members = window.Members = [
     {
         alt: "Foxie",
         name: "sparkychild",
-        blurb: '<p>Hi, I am a magical fox girl - I make magic through my music!  In my spare time, I have been learning how to do my magic on computers as well.  I am your site master, so if you have any issues with this site, please contact me!</p><p>Here is a sample of my music - one my my favourite pieces - Chopin\'s Nocturne in C# minor. I hope you enjoy it! :3</p><center><audio style="width: cover;" src="../files/foxie-nocturne.mp3" controls=""></audio></center>'
+        blurb: '<p>Hi, I am a magical fox girl - I make magic through my music!  In my spare time, I have been learning how to do my magic on computers as well.  I am your site master, so if you have any issues with this site, please contact me!</p><p>Here is a sample of my music - one my my favourite pieces - Chopin\'s Nocturne in C# minor. I hope you enjoy it! :3</p><center><audio style="width: cover;" src="files/foxie-nocturne.mp3" controls=""></audio></center>'
     },
     {
         name: "Hawkie",
@@ -35,6 +35,7 @@ var Members = window.Members = [
     {
         alt: "Brionne",
         name: "Veteran Brionne",
+        blurb: 'When playing Mafia there should always be 3 things with you. Firstly, the door to survivor. Secondly, a trash can full of bad players to add to if needed and lastly a big jar of salt',
     },
     {
         alt: "BALLZ",
