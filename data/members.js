@@ -68,4 +68,8 @@ var Members = window.Members = [
         alt: "AG",
         name: "Ragnarok (Archgod)",
     },
+    {
+        alt: "Blurb",
+        name: "T-Blurb",
+    },
 ];
