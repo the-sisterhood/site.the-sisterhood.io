@@ -72,4 +72,9 @@ var Members = window.Members = [
         alt: "Blurb",
         name: "T-Blurb",
     },
+    {
+        alt: "WltchDoctor",
+        exactName: true,
+        name: "ScorrchingTheaph",
+    },
 ];
