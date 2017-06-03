@@ -25,6 +25,11 @@ var Quotes = window.Quotes = [
         date: "June 2, 2017, 21:59",
     },
     {
+        quote: "Please don't say the tabfail was fake because it honestly wasnt",
+        by: "The(Who+Doctor)²",
+        date: "June 3, 2017, 02:31",
+    },
+    {
         quote: ".l WitchDoctorFoxie / don't wanna NL / and I don't wanna have three WitchDoctors entering the next few days",
         by: "shubaka17",
         date: "June 2, 2017, 22:12:03",
