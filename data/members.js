@@ -63,6 +63,7 @@ var Members = window.Members = [
     {
         alt: "Zac",
         name: "Zac Moreau",
+        blurb: 'Zac is the most cold-hearted of the sisters, creating a series of 10 commandments witch all witches must follow. She also has a thing for puns.',
     },
     {
         alt: "AG",
