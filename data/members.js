@@ -77,4 +77,8 @@ var Members = window.Members = [
         exactName: true,
         name: "ScorrchingTheaph",
     },
+    {
+        alt: "Eesti",
+        name: "Tiksi",
+    },
 ];
