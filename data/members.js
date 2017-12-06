@@ -87,4 +87,8 @@ var Members = window.Members = [
         name: "GAYreenHamster",
         blurb: 'Saltiest of all the witches! Was previously jailed for a-salt but was released and changed his ways. Shares a love of puns with WitchDoctorZac :P',
     },
+    {
+        alt: "Spastic",
+        name: "Astolos"
+    }
 ];
